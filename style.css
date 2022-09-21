@@ -7,10 +7,22 @@
     width: 100%;
     height: 30vh;
 }
-/* 
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img{
+    /* opacity: 0.8; */
+    height: 70vh ;
 }
- */
+.imgop{
+    opacity: 0.8;
+}
+
+
+
+/* 
+@media screen and (mix-width: 780px) {
+    body {
+      background-color: lightgreen !important;
+    }
+  } */
+
+
+
