@@ -8,7 +8,6 @@
     height: 30vh;
 }
 .img{
-    /* opacity: 0.8; */
     height: 70vh ;
 }
 .imgop{
@@ -16,6 +15,25 @@
 }
 
 
+
+/* about css  */
+
+
+
+
+.linestyle{
+    cursor: pointer;
+}
+
+.abouthead{
+    background: linear-gradient(rgba(9, 30, 62, .85),rgba(9, 30, 62, .85)), url(/img/pix3.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+.bgabout{
+    background-color: rgba(18 173 230 / 6%) !important;
+}
 
 /* 
 @media screen and (mix-width: 780px) {
