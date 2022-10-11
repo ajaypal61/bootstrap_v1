@@ -20,7 +20,7 @@
             <a class="navbar-brand" href="#">
                 <img src="img/img1.png" width="40px" height="40px" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler mobail-navbar" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,6 +59,7 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+
             </div>
         </div>
     </nav>
@@ -67,44 +68,77 @@
 
     <!-- sliders start-->
     <main>
-
-        <div>
-            <div id="carouselExampleCaptions" class="carousel slide m-4 " data-bs-ride="carousel">
-                <div class="carousel-inner d-sm-none d-md-block d-none d-sm-block">
-                    <div class="carousel-item active">
-                        <img src="img/pix.jpg" class="d-block w-100 img" alt="...">
-                        <div class="carousel-caption font-monospace d-block">
-                            <h3>Web Developers</h3>
-                            <p>Developer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
-                                doloribus!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="carouselExampleCaptions" class="carousel slide m-4" data-bs-ride=" carousel">
-                <div class="carousel-inner d-md-none d-lg-none d-xl-none">
-                    <div class="carousel-item active">
-                        <img src="img/pix.jpg" class="d-block w-100 img" style="height: 50vh;" alt=" ...">
-                        <div class="carousel-caption font-monospace d-block">
-                            <p class="position-absolute bottom-0 end-0 m-0">Developer Lorem ipsum dolor sit amet
-                                consectetur, adipisicing elit.
-                                Dolorem,
-                                doloribus!
-                            </p>
-
-                        </div>
-                    </div>
+        <div class="">
+            <div class="sliderimg container-fluid d-flex flex-column align-items-center justify-content-center ">
+                <div class="font-monospace text-white text-center pb-0 mb-0">
+                    <h1 class="fs-1 text-uppercase">Web Developers</h1>
+                    <p class="fs-2 fst-italic">Developer Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <p class="blockquote-footer text-white text-end fs-6 pb-0 mb-0">Ajaypal Singh</p>
                 </div>
             </div>
         </div>
 
+
+        <!-- services start  -->
+        <section class="section-bg py-5">
+            <div class="mx-5">
+                <div class="text-center pb-4 ">
+                    <h2 class="text-uppercase fw-bold mb-3 pb-3">Services</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis illum voluptates cumque
+                        sapiente id assumenda vel tempora? Obcaecati vero nulla est sed aliquid possimus maxime
+                        excepturi quis id facilis deleniti, dolorum commodi laboriosam cum illum assumenda? Laboriosam,
+                        iste repellat. Laborum!</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch ">
+                        <div class="icon-box px-4 py-5">
+                            <div class="icon mb-3 fs-1 text-info"><i class="bi bi-browser-chrome"></i></div>
+                            <h5 class="text-primary fs-2">Web Details </h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore est quam ipsa.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box px-4 py-5">
+                            <div class="icon mb-3 fs-1 text-info"><i class="bi bi-browser-chrome"></i></div>
+                            <h5 class="text-primary fs-2">Web Details </h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore est quam ipsa.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+                        <div class="icon-box px-4 py-5">
+                            <div class="icon mb-3 fs-1 text-info"><i class="bi bi-browser-chrome"></i></div>
+                            <h5 class="text-primary fs-2">Web Details </h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore est quam ipsa.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+                        <div class="icon-box px-4 py-5">
+                            <div class="icon mb-3 fs-1 text-info"><i class="bi bi-browser-chrome"></i></div>
+                            <h5 class="text-primary fs-2">Web Details </h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore est quam ipsa.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- services end  -->
+
+
+
+
         <div class="m-4">
             <div class="card mb-3">
                 <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="img/pix3.jpg" class="img-fluid rounded-start" alt="...">
+                    <div class="col-md-4 ">
+                        <img src="img/pix3.jpg" class="img-fluid rounded-start w-100 photecard" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -123,7 +157,7 @@
             </div>
         </div>
 
-        <!-- cards  -->
+        <!-- cards start  -->
         <div>
             <div class="card-group mx-3 my-4">
                 <div class="card mx-2">
@@ -211,7 +245,9 @@
             </div>
         </div>
 
-        <div class="card-group mx-4">
+        <!-- card end  -->
+
+        <div class="card-group mx-4 ">
             <div class="card border-0 ">
                 <img src="img/2020_6_largeimg_2106819729-removebg-preview.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -289,11 +325,11 @@
 
             </div>
         </div>
-        <div class="fcredit text-center">
+        <!-- <div class="fcredit text-center">
             <p>
                 Copyright @2022 All rights reserved | This template is made with by Ajaypal singh.
             </p>
-        </div>
+        </div> -->
     </footer>
 
     <!-- footer end  -->
